@@ -1,0 +1,231 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 46, 54);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background: rgb(234, 234, 234);
+}
+
+.titulo-principal{
+    font-family: 'Minecraft', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    padding: 1em 0.5em 1em 0.5em;
+    
+}
+
+.titulo-principal a{
+    text-decoration: none;
+    color: rgb(49, 142, 255);
+}
+
+.titulo-cabecalho {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1em;
+}
+
+.titulo-cabecalho li{
+    display: inline-block;
+}
+
+.titulo-cabecalho a{
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-foto {
+    display: block;
+    margin: 2em auto 2em auto;
+    width: 100%;
+}
+
+.sobre-mim {
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    margin: 0 1em 0 1em;
+}
+
+.sobre-mim strong{
+    color: rgb(10, 228, 10);
+    font-weight: 600;
+}
+
+.sobre-mim p {
+    margin-bottom: 0.5em;
+}
+
+.carrossel{
+    margin-bottom: 3em;
+}
+
+.linguagens ul{
+    display: none;
+    }
+
+.linguagens li{
+    display: none;
+}
+
+.linguagens li:hover{
+    display: none;
+}
+
+.linguagens li:hover h2{
+    display: none;
+}
+
+
+.linguagens h2{
+    display: none;
+}
+
+.desc{
+    display: none;
+}
+
+.linguagens li:hover p{
+    display: none;
+}
+
+
+
+.copyright{ /*pagina de simbolo unicode*/
+    color: black;
+    font-size: 15px;
+    padding: 30px 0;
+}
+
+footer{  
+    text-align: center;
+    background: rgb(234, 234, 234);
+}
+
+
+@media screen and (min-width:1024px) {
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .titulo-principal{
+        font-family: 'Minecraft', sans-serif;
+        text-align: center;
+        font-size: 4em;
+        padding: 1em 0.5em 1em 0.5em;
+        
+    }
+
+    .titulo-cabecalho li{
+        margin: 0em 2em 0 2em;
+    }
+
+    .div-cabecalho {
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+    }
+
+    .titulo-cabecalho {
+        margin-top: 1.5em;
+    }
+
+    .titulo-cabecalho a{
+        font-weight: 600;
+    }
+
+    .titulo-cabecalho a:hover{
+        color: rgb(10, 228, 10);
+    }
+
+    .titulo-foto {
+        display: block;
+        margin: 2em auto 2em auto;
+        width: 60%;
+    }
+    
+
+    .titulo-sobre-mim {
+        color: rgb(49, 142, 255);
+        font-size: 5em;
+        font-weight: 600;
+        margin-bottom: 0.25em;
+        margin-top: 1em;
+    }
+
+    .sobre-mim {
+        text-align: center;
+        color: black;
+        font-weight: 400;
+        margin: 0 1em 0 1em;
+    }
+    
+    .sobre-mim strong{
+        color: rgb(10, 228, 10);
+        font-weight: 600;
+    }
+    
+    .sobre-mim p {
+        margin-bottom: 0.5em;
+        font-size: 1.5em;
+    }
+
+
+    .linguagens ul{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    }
+
+    .linguagens li{
+        display: inline-block;
+        text-align: center;
+        width: 20%;
+        vertical-align: top;
+        margin: 50px 6.4%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 4px solid black;
+        border-radius: 15px;
+    }
+
+    .linguagens li:hover{
+        border-color: rgb(10, 228, 10);
+    }
+
+    .linguagens li:hover h2{
+        font-size: 36px;
+    }
+
+
+    .linguagens h2{
+        color: black;
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .desc{
+        display: none;
+    }
+
+    .linguagens li:hover p{
+        display: contents;
+        color: #dbd8e3;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .html{
+        width: 40%;
+        margin: 0 5em 2em 5em;
+    }
+
+}

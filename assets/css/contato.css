@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 46, 54);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background: rgb(234, 234, 234);
+}
+
+.titulo-principal{
+    font-family: 'Minecraft', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    padding: 1em 0.5em 1em 0.5em;
+    
+}
+
+.titulo-principal a{
+    text-decoration: none;
+    color: rgb(49, 142, 255);
+}
+
+.titulo-cabecalho {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1em;
+}
+
+.titulo-cabecalho li{
+    display: inline-block;
+}
+
+.titulo-cabecalho a{
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.linkedin, .github{
+    width: 30%;
+}
+
+.contatos{
+    margin: 4em 2em 0 2em;
+    
+}
+
+.contatos li{
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 20px;
+    color: black;
+    margin: 0 0 3em 0;
+    height: 40%;
+}
+
+.email{
+ width: 60%;
+}
+
+
+.contatos a{
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.inputa {
+    visibility: hidden;
+}
+
+.contatos img{
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 20%;
+}
+
+.botao{
+    font-size: 1.5em;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.copyright{ /*pagina de simbolo unicode*/
+    color: black;
+    font-size: 15px;
+    padding: 30px 0;
+}
+
+footer{
+    text-align: center;
+    background: rgb(234, 234, 234);
+} 
+
+@media screen and (min-width:1024px) {
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .titulo-principal{
+        font-family: 'Minecraft', sans-serif;
+        text-align: center;
+        font-size: 4em;
+        padding: 1em 0.5em 1em 0.5em;
+        
+    }
+
+    .titulo-cabecalho li{
+        margin: 0em 2em 0 2em;
+    }
+
+    .div-cabecalho {
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+    }
+
+    .titulo-cabecalho {
+        margin-top: 1.5em;
+    }
+
+    .titulo-cabecalho a{
+        font-weight: 600;
+    }
+
+    .titulo-cabecalho a:hover{
+        color: rgb(10, 228, 10);
+    }
+
+    
+    .contatos{
+        margin: 4em 2em 0 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contatos li{
+        text-align: center;
+        border: 4px solid black;
+        border-radius: 20px;
+        color: black;
+        margin: 0 0 3em 0;
+        height: 8em;
+        max-width: 50%;
+    }
+      
+    .contatos a{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Source Code Pro', monospace;
+    }
+    
+    .inputa {
+        visibility: hidden;
+    }
+    
+    .contatos img{
+        position: relative;
+        display: block;
+        margin: 2em auto 0 auto;
+        width: 20%;
+    }
+
+    .linkedin, .github, .email {
+        min-width: 3.5em;
+    }
+    
+    .botao{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+        cursor: pointer;
+        border: 1px solid transparent;
+        background-color: transparent;
+        font-family: 'Source Code Pro', monospace;
+    }
+    
+    .copyright{ /*pagina de simbolo unicode*/
+        color: black;
+        font-size: 15px;
+        padding: 30px 0;
+    }
+    
+    footer{
+        text-align: center;
+        background: rgb(234, 234, 234);
+    } 
+    
+
+}

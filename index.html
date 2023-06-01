@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Início</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/syles.css">
+        <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="assets/css/carrossel.css">
+                
+    </head>
+    <body>
+        <header class="header">
+            <div>
+                <h1 class="titulo-principal"><a href="index.html">Meu Portfolio</a></h1>
+            </div>
+
+            <div class="div-cabecalho">
+                <nav>
+                    <ul class="titulo-cabecalho">
+                        <li><a href="sobre.html" class="penes">Sobre</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+       </header>
+
+       <div class="foto-principal">
+        <img src="assets/img/banner.jpg" alt="Minha foto" class="titulo-foto">
+    </div>
+
+       <main class="main">
+            <div class="sobre-mim">
+                <h2 class="titulo-sobre-mim">Olá!</h2>
+                <p>Meu nome é <strong>Lucas</strong></p>
+                <p>Sou um desenvolvedor backend</p>
+                <p>E esta é a página destinada à disponibilizar minhas informações como parte do projeto <strong>currículo como site</strong>.</p>
+            </div>
+            <section class="carrossel">
+                <h2 class="carrossel__titulo">Acadêmico</h2>
+                <!-- Slider main container -->
+                <div class="carrossel__container">
+                    <div class="swiper">
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="assets/img/html.png" alt="html" class="swiper-imagem"></div>
+                        <div class="swiper-slide"><img src="assets/img/css.png" alt="css" class="swiper-imagem"></div>
+                        <div class="swiper-slide"><img src="assets/img/js.png" alt="Javascript" class="swiper-imagem"></div>
+                        <div class="swiper-slide"><img src="assets/img/mysqllogo.png" alt="mysql" class="swiper-imagem"></div>
+                        <div class="swiper-slide"><img src="assets/img/pythonlogo.png" alt="python" class="swiper-imagem"></div>
+                        <div class="swiper-slide"><img src="assets/img/javalogo.png" alt="java" class="swiper-imagem"></div>
+                        <div class="swiper-slide"><img src="assets/img/cslogo.png" alt="csharp" class="swiper-imagem"></div>
+                        <div class="swiper-slide"><img src="assets/img/redeslogo.png" alt="redes" class="swiper-imagem"></div>
+                        <div class="swiper-slide"><img src="assets/img/excellogo.png" alt="excel" class="swiper-imagem"></div>
+                        ...
+                        </div>         
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <ul class="linguagens">
+                    <li>
+                        <h2>JavaScript</h2>
+                        <img class="html" src="assets/img/js.png" alt="logo javascript">
+                        <p class="desc">Conhecimento prévio</p>
+                    </li>
+                    <li>
+                        <h2>CSS3</h2>
+                        <img class="html" src="assets/img/css.png" alt="logo css">
+                        <p class="desc">Certificado Alura</p>
+                    </li>
+                    <li>
+                        <h2>HTML5</h2>
+                        <img class="html" src="assets/img/html.png" alt="logo html">
+                        <p class="desc">Certificado Alura</p>
+                    </li>
+                    <li>
+                        <h2>Python</h2>
+                        <img class="html" src="assets/img/pythonlogo.png" alt="logo python">
+                        <p class="desc">Conhecimento prévio</p>
+                    </li>
+                    <li>
+                        <h2>Java</h2>
+                        <img class="html" src="assets/img/javalogo.png" alt="logo java">
+                        <p class="desc">Certificado Alura</p>
+                    </li>
+                    <li>
+                        <h2>MySQL</h2>
+                        <img class="html" src="assets/img/mysqllogo.png" alt="logo MySQL">
+                        <p class="desc">Certificado Alura</p>
+                    </li>
+                    <li>
+                        <h2>Excel</h2>
+                        <img class="html" src="assets/img/excellogo.png" alt="logo excel">
+                        <p class="desc">Conhecimento prévio</p>
+                    </li>
+                    <li>
+                        <h2>Redes de Computadores</h2>
+                        <img class="html" src="assets/img/redeslogo.png" alt="logo redes de computadores">
+                        <p class="desc">Certificado Alura</p>
+                    </li>
+                    <li>
+                        <h2>C#</h2>
+                        <img class="html" src="assets/img/cslogo.png" alt="logo csharp">
+                        <p class="desc">Conhecimento prévio</p>
+                    </li>
+                </ul>
+            </section>
+       </main>
+       <footer class="footer">
+            <div class="rodape">
+                <p class="copyright">&#169 Copyright Lucas Pereira de Medeiros - 2023</p>
+            </div>
+       </footer> 
+       <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+       <script class="">
+           const swiper = new Swiper('.swiper', {spaceBetween: 10, slidesPerView: 3,  pagination: {el: '.swiper-pagination', type: 'bullets',}});
+       </script>
+    </body>
+</html>
