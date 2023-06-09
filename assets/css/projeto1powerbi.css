@@ -35,25 +35,15 @@ header{
     font-weight: 400;
     font-size: 1.5em;
     text-decoration: none;
-    color: black;   
+    color: black;
 }
 
-main{
-    text-align: center;
+.janelinha{
+    height: 80vw;
+    width: 100%;
+    margin: 20vw 0 30vw 0;
 }
 
-main h2{
-    font-size: 6vw;
-}
-
-.imagemcaixa{
-    max-width: 30%;
-    margin-top: 5vw;
-}
-
-.projetos li{
-    margin: 20vw 10vw 20vw 10vw;
-}
 
 .copyright{ /*pagina de simbolo unicode*/
     color: black;
@@ -65,8 +55,6 @@ footer{
     text-align: center;
     background: rgb(234, 234, 234);
 }
-
-
 
 @media screen and (min-width:1024px) {
     .header{
@@ -102,6 +90,16 @@ footer{
 
     .titulo-cabecalho a:hover{
         color: rgb(10, 228, 10);
+    }
+    
+    main{
+        text-align: center;
+    }
+
+    .janelinha{
+        width: 70%;
+        height: 40em;
+        margin: 20vw 0 30vw 0;
     }
     
 }
