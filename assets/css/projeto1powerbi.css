@@ -44,6 +44,33 @@ header{
     margin: 20vw 0 30vw 0;
 }
 
+h2{
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 600;
+    margin: 5vw 1vw 0 1vw;
+}
+
+img{
+    max-width: 100%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+h3{
+    font-size: 4.6vw;
+    margin-bottom: 2vw;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+main p{
+    font-size: 4vw;
+    text-align: center;
+    margin: 5vw 1vw 0 1vw;
+}
+
 
 .copyright{ /*pagina de simbolo unicode*/
     color: black;
@@ -76,7 +103,7 @@ footer{
 
     .div-cabecalho {
         display: flex;
-        align-items:center;
+        align-items: top;
         justify-content: space-around;
     }
 
@@ -99,7 +126,33 @@ footer{
     .janelinha{
         width: 70%;
         height: 40em;
-        margin: 20vw 0 30vw 0;
+        margin: 6vw 0 10vw 0;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 2vw;
+        margin: 5vw 0 0 0;
+    }
+
+    img{
+        max-width: 50%;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    h3{
+        font-size: 1.6vw;
+        margin-bottom: 1vw;
+        font-weight: 600;
+        text-align: justify;
+        margin-left: 3vw;
+    }
+
+    main p{
+        font-size: 1.2vw;
+        text-align: justify;
+        margin-left: 3vw;
     }
     
 }

@@ -88,7 +88,7 @@ footer{
 
     .div-cabecalho {
         display: flex;
-        align-items:center;
+        align-items: top;
         justify-content: space-around;
     }
 
@@ -102,6 +102,45 @@ footer{
 
     .titulo-cabecalho a:hover{
         color: rgb(10, 228, 10);
+    }
+
+    .projetos ul{
+        width: 940px;
+        margin: 0 auto;
+        padding: 50px 0;
+        }
+    
+    .projetos li{
+        display: inline-block;
+        text-align: center;
+        width: 20%;
+        vertical-align: top;
+        margin: 50px 6.4%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+    }
+
+    .projetos li:hover h2{
+        font-size: 36px;
+    }
+
+    .projetos h2{
+        color: black;
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .projetos li:hover p{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .projetos img{
+        min-width: 40%;
     }
     
 }
