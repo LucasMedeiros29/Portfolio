@@ -72,8 +72,6 @@ header{
     display: none;
 }
 
-
-
 .linguagens h2{
     display: none;
 }
@@ -118,7 +116,7 @@ footer{
 
     .div-cabecalho {
         display: flex;
-        align-items:top;
+        align-items: top;
         justify-content: space-around;
     }
 

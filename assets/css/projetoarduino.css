@@ -38,40 +38,6 @@ header{
     color: black;
 }
 
-.janelinha{
-    height: 80vw;
-    width: 100%;
-    margin: 20vw 0 30vw 0;
-}
-
-h2{
-    text-align: center;
-    font-size: 5vw;
-    font-weight: 600;
-    margin: 2em 1vw 4em 1vw;
-}
-
-img{
-    max-width: 100%;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-}
-
-h3{
-    font-size: 4.6vw;
-    margin-bottom: 2vw;
-    font-weight: 600;
-    text-align: center;
-
-}
-
-main p{
-    font-size: 4vw;
-    text-align: center;
-    margin: 5vw 1vw 0 1vw;
-}
-
-
 .copyright{ /*pagina de simbolo unicode*/
     color: black;
     font-size: 15px;
@@ -81,6 +47,43 @@ main p{
 footer{  
     text-align: center;
     background: rgb(234, 234, 234);
+}
+
+main h2{
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 600;
+    margin: 2em 2vw 4em 2vw;
+}
+
+main ul{
+    margin: 4vw 0 5vw 0;
+    text-align: center;
+}
+
+
+main a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+main img{
+    max-width: 100%;
+    margin-bottom: 5vw;
+}
+
+main p  {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2vw;
+}
+
+.fotoprojeto{
+    display: block;
+    width: 50%;
+    margin: 3vw auto 3vw auto;
 }
 
 @media screen and (min-width:1024px) {
@@ -103,7 +106,7 @@ footer{
 
     .div-cabecalho {
         display: flex;
-        align-items: top;
+        align-items:top;
         justify-content: space-around;
     }
 
@@ -118,42 +121,43 @@ footer{
     .titulo-cabecalho a:hover{
         color: rgb(10, 228, 10);
     }
-    
-    main{
+
+    main p  {
+        font-size: 1.5vw;
         text-align: center;
+        font-weight: 600;
     }
-
-    .janelinha{
-        width: 70%;
-        height: 40em;
-        margin: 6vw 0 10vw 0;
-    }
-
-    h2{
+    
+    main h2{
         text-align: center;
         font-size: 2vw;
         font-weight: 600;
         margin: 2em 1vw 4em 1vw;
     }
+    
+    main ul{
+        margin: 4vw 0 5vw 0;
+        text-align: center;
+    }
 
-    img{
-        max-width: 70%;
+    main a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 5em;
+    }
+    
+    main img{
+        max-width: 40%;
         margin-top: 2vw;
         margin-bottom: 2vw;
     }
-
-    h3{
-        font-size: 1.6vw;
-        margin-bottom: 1vw;
-        font-weight: 600;
-        text-align: justify;
-        margin-left: 3vw;
-    }
-
-    main p{
-        font-size: 1.2vw;
-        text-align: justify;
-        margin-left: 3vw;
-    }
     
+    .fotoprojeto{
+        display: inline-block;
+        width: 20%;
+        margin: 3vw auto 3vw auto;
+    }
+
+
 }
